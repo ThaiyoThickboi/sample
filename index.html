@@ -7,10 +7,14 @@
         <meta name="viewport"content="widht=device-width, initial-scale=1.0">
         <meta name="keywords" content="Thaiyo">
         <meta name="author" content="Thaiyo">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
     </head>
     <body>
         <!-- This is the visible part of my web page-->
-        <h1>Animals</h1>
+        <h1>Animals<span class="material-icons-outlined">
+            pets
+            </span></h1>
         <main>
             <p>Click here to view more <a href="#">cat photos</a></p>
             <a href="#"><img src="coolcat.jpg" alt="cat" width="200" height="150"></a>
@@ -27,15 +31,25 @@
                 <li>Cockroach</li>
             </ol>
             <form action="process.html">
+                <span class="material-icons-outlined">
+                    account_circle
+                    </span>
                 <label for="name">What is Your Name?</label><br>
                 <input type="text" placeholder="Enter your name" id="name" name="WhatIsYoutname"><br>
+                <span class="material-icons-outlined">
+                    account_circle
+                    </span>
                 <label for="surname">What is Your Name?</label><br>
                 <input type="text" placeholder="Enter your Last Name" id="surname" name="lastname"><br>
                 <label for="love">Do you love animals?<br>
-                <input type="radio" id="love" name="love">I love animals
+                <span class="material-icons-outlined">
+                    favorite
+                    </span><input type="radio" id="love" name="love">I love animals
                 </label><br>
                 <label for="DontLove">
-                <input type="radio" id="DontLove" name="Love">I hate animals
+                    <span class="material-icons-outlined">
+                        thumb_down_off_alt
+                        </span><input type="radio" id="DontLove" name="Love">I hate animals
                 </label><br>
                 <label for="kind">What types of animals do you like?</label><br>
                 <input type="checkbox" id="an1" name="animal">Mammals</lable><br>
@@ -46,6 +60,10 @@
                 <input type="checkbox" id="an6" name="animal">Insects</lable><br>
                 <button type="submit">Submit</button>                          
             </form>
+            <h3>Animals video</h3>
+            <video src="zookie_Trim.mp4" width="400" height="240" controls loop></video>
+            <h3>Animals noise</h3>
+            <audio src="Anutin.mp3" controls loop></audio>
         </main>
     </body>
 </html>
