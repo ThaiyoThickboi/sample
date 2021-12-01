@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <titile>Thaiyo Kido</titile>
+        <link rel="stylesheet" href="style.css">
+        <title>Thaiyo Kido</title>
         <meta charset="UTF-8">
-        <meta charset="UTF-8">
-        <meta name="viewport"content="widht=device-width, initial-scale=1.0">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
         <meta name="keywords" content="Thaiyo">
         <meta name="author" content="Thaiyo">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -16,7 +16,7 @@
             pets
             </span></h1>
         <main>
-            <p>Click here to view more <a href="#">cat photos</a></p>
+            <p>Click here to view more <a href="https://unsplash.com/images/animals">Animals photos</a></p>
             <a href="#"><img src="coolcat.jpg" alt="cat" width="200" height="150"></a>
             <p>Animals that I like</p>
             <ul>
@@ -51,20 +51,26 @@
                         thumb_down_off_alt
                         </span><input type="radio" id="DontLove" name="Love">I hate animals
                 </label><br>
-                <label for="kind">What types of animals do you like?</label><br>
-                <input type="checkbox" id="an1" name="animal">Mammals</lable><br>
-                <input type="checkbox" id="an2" name="animal">Birds</lable><br>
-                <input type="checkbox" id="an3" name="animal">Reptiles</lable><br>
-                <input type="checkbox" id="an4" name="animal">Amphibians</lable><br>
-                <input type="checkbox" id="an5" name="animal">Fish</lable><br>
-                <input type="checkbox" id="an6" name="animal">Insects</lable><br>
+                <label for="kind"><input type="radio" id="kind" name="like">What types of animals do you like?</label><br>
+                <label for="an1">
+                <input type="checkbox" id="an1" name="animal">Mammals</label><br>
+                <label for="an2">
+                <input type="checkbox" id="an2" name="animal">Birds</label><br>
+                <label for="an3">
+                <input type="checkbox" id="an3" name="animal">Reptiles</label><br>
+                <label for="an4">
+                <input type="checkbox" id="an4" name="animal">Amphibians</label><br>
+                <label for="an5">
+                <input type="checkbox" id="an5" name="animal">Fish</label><br>
+                <label for="an6">
+                <input type="checkbox" id="an6" name="animal">Insects</label><br>
                 <button type="submit">Submit</button>                          
             </form>
             <h3>Animals video</h3>
             <video src="zookie_Trim.mp4" width="400" height="240" controls loop></video>
             <h3>Animals noise</h3>
             <audio src="Anutin.mp3" controls loop></audio>
-            <table border="1">
+            <table>
                 <tr>
                     <th>Owners</th><th>Dog's name</th>
                 </tr>

@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid black;
+}
+p {
+    font-size: 22px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;line-height: 8px;
+}
+body {
+    background-color: rgb(235, 218, 127)100, 100);
+}
+h1 {
+    color:rgb(218, 0, 0);text-align: left;
+}
+
+img {
+    margin-top: 10pt; margin-bottom: 20pt; margin-left: ; 
+    margin-right: ;
+}
